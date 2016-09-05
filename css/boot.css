@@ -1,19 +1,18 @@
 
 #main{
-    background-image: url(/home/simplonco/Bureau/testing1/training/images/cod.jpg);
+    background-image: url(../images/cod.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
+    
 }
 div{
-  width: auto;
-  height: auto;
+color: black;
 }
 
 #rass img{
   border-radius: 90px;
 margin:10px auto;
 }
-p{color: #6600ff;}
 span{
   font-size: 24px;
   color:#660066;
