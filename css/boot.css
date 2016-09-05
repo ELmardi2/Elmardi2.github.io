@@ -1,8 +1,9 @@
 
 #main{
-    background-image: url(/home/simplonco/Bureau/testing1/training/images/cod.jpg);
+    background-image: url(images/cod.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
+    
 }
 div{
   width: auto;
