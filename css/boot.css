@@ -3,7 +3,7 @@
     background-image: url(../images/cod.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 }
 div{
 color: black;
@@ -32,6 +32,11 @@ footer p{
 ul{
   list-style: none;
 }
-i{color: blue;
+i{
+  display: inline-block;
+  border: 2px solid white;
+  border-radius: 22px dotted red;
+  padding-right: 10px;
+  color: blue;
   animation-timing-function: cubic-bezier(.42, 0, .58, 1);
 }
