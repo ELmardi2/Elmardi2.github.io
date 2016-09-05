@@ -6,15 +6,13 @@
     
 }
 div{
-  width: auto;
-  height: auto;
+color: white;
 }
 
 #rass img{
   border-radius: 90px;
 margin:10px auto;
 }
-p{color: #6600ff;}
 span{
   font-size: 24px;
   color:#660066;
