@@ -32,7 +32,7 @@
   <!-- Favicons
 	================================================== -->
   <link rel="shortcut icon" href="favicon.png">
-
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 
 <body>
@@ -50,10 +50,9 @@
         <li class="current"><a class="smoothscroll" href="#home">Accueill</a></li>
         <li><a class="smoothscroll" href="#resume">Formations</a></li>
         <li><a class="smoothscroll" href="#about">Profil</a></li>
-
         <li>
           <a class="smoothscroll" href="#work">EXPERIENCES</a>
-          <ul class="dropdown">
+          <ul id="dropdown" class="dropdown-menu">
             <li><a class="smoothscroll" href="#">Compétencs Technique</a></li>
             <li><a class="smoothscroll" href="#">Langue</a></li>
           </ul>
@@ -62,10 +61,8 @@
         <li><a class="smoothscroll" href="#contact">Contact</a></li>
       </ul>
       <!-- end #nav -->
-
     </nav>
     <!-- end #nav-wrap -->
-
     <div class="row banner">
       <div class="banner-text">
         <img src="images/profilepic.png" alt=" mon image" style="border-radius:60%;"/>
@@ -292,7 +289,7 @@
               <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
             </div>
             <div>
-              <label for="contactMessage">Message <span class="required">*</span></label>
+              <label for="contactMessage">Message <span class="required"></span></label>
               <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
             </div>
             <div>
@@ -346,13 +343,47 @@
          </div>
          <div class="interet">
            <h3>Langues</h3>
-           <ul class="intrest">
-             <li>Arabie</li>
-             <li>Français</li>
-             <li>Anglais</li>
-             <li>Russe</li>
-           </ul>
-         </div>
+                       <div class="">
+                         <h4>Arabe</h4>
+                          <div class="nagom">
+                            <i class="fa fa-star fa-lg" aria-hidden="true"></i>
+                            <i class="fa fa-star fa-lg" aria-hidden="true"></i>
+                            <i class="fa fa-star fa-lg" aria-hidden="true"></i>
+                            <i class="fa fa-star fa-lg" aria-hidden="true"></i>
+                            <i class="fa fa-star fa-lg" aria-hidden="true"></i>
+                          </div>
+                       </div>
+                       <div class="">
+                         <h4>Français</h4>
+                         <div class="nagom">
+                            <i class="fa fa-star fa-lg" aria-hidden="true" style="color:black;"></i>
+                            <i class="fa fa-star fa-lg" aria-hidden="true"></i>
+                            <i class="fa fa-star fa-lg" aria-hidden="true"></i>
+                            <i class="fa fa-star fa-lg" aria-hidden="true"></i>
+                            <i class="fa fa-star fa-lg" aria-hidden="true"></i>
+                         </div>
+                       </div>
+                       <div class="">
+                         <h4>Anglais</h4>
+                         <div class="nagom">
+                           <i class="fa fa-star fa-lg"  style="color:black;"></i>
+                           <i class="fa fa-star fa-lg" aria-hidden="true"></i>
+                           <i class="fa fa-star fa-lg" aria-hidden="true"></i>
+                           <i class="fa fa-star fa-lg" aria-hidden="true"></i>
+                           <i class="fa fa-star fa-lg" aria-hidden="true"></i>
+                         </div>
+                       </div>
+                         <div class="">
+                           <h4>Russe</h4>
+                           <div class="nagom">
+                              <i class="fa fa-star fa-lg" aria-hidden="true" style="color:black;"></i>
+                              <i class="fa fa-star fa-lg" aria-hidden="true" style="color:black;"></i>
+                             <i class="fa fa-star fa-lg" aria-hidden="true"></i>
+                              <i class="fa fa-star fa-lg" aria-hidden="true"></i>
+                              <i class="fa fa-star fa-lg" aria-hidden="true"></i>
+                           </div>
+                         </div>
+              </div>
   <!-- footer
    ================================================== -->
   <footer>

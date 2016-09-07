@@ -975,7 +975,7 @@ call-to-action .button {
     float: left;
 }
 .photo div {
-  border: 3px dotted #cdf;
+
     display: inline;
     overflow: hidden;
     float: left;
@@ -987,6 +987,30 @@ call-to-action .button {
   display: inline;
   height:80%;
   width: 95%;
+}
+.interet {
+background-image: url(../images/world.jpg);
+
+background-size: cover !important;
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    width: 34%;
+    height: 200px;
+    float: right;;
+}
+.interet div {
+
+    display: block;
+    overflow: hidden;
+    float: left;
+    height:100%;
+    width:25%;
+    text-align: center;
+}
+.interet .nagom i {
+
+color: blue;
 }
 /* ------------------------------------------------------------------ */
 /* i. Footer
