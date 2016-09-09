@@ -117,7 +117,7 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #11ABB0; }
+
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -449,6 +449,83 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
+.interet {
+  border: 3px solid #cfe;
+    display: block;
+    text-align: center;
+    width: 34%;
+    height: 200px;
+    float: left;
+}
+.interet h2{
+  margin-top: -5px;
+  padding-bottom: -5px;
+}
+/*----------------------------------------------*/
+/*	Skill Bars
+/*----------------------------------------------*/
+
+.interet .niveau {
+	width: 95%;
+	float: left;
+	padding: 0;
+	text-align: center;
+}
+.interet .lang h5 {
+padding-top: 1px;
+margin: 0;
+text-align: left;
+}
+.interet li {
+   position: relative;
+  	margin-bottom: 6px;
+  	background: #ccc;
+  	height: 16px;
+  	border-radius: 3px;
+}
+.interet li em {
+	font: 15px 'opensans-bold', sans-serif;
+   color: #313131;
+	text-transform: capitalize;
+   letter-spacing: 2px;
+	font-weight: normal;
+
+	top: -36px;
+}
+.interet .bar-expand {
+   position: absolute;
+   left: 0;
+   top: 0;
+
+   margin: 0;
+   padding-right: 24px;
+  	background: #00ace6;
+   display: inline-block;
+  	height: 16px;
+   line-height: 16px;
+   border-radius: 3px 0 0 3px;
+}
+.Arabe {
+  	width: 100%;
+  	-moz-animation: wordpress 2s ease;
+  	-webkit-animation: wordpress 2s ease;
+}
+.French {
+  	width: 80%;
+  	-moz-animation: css 2s ease;
+  	-webkit-animation: css 2s ease;
+}
+.Anglais {
+  	width: 85%;
+  	-moz-animation: html5 2s ease;
+  	-webkit-animation: html5 2s ease;
+}
+.Russe {
+  	width: 60%;
+  	-moz-animation: jquery 2s ease;
+  	-webkit-animation: jquery 2s ease;
+}
+
 
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
@@ -596,6 +673,8 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 3px;
    cursor: pointer;
 }
+strong{color: blue;}
+
 .popup-modal a:hover {	color: #00CCCC; }
 .popup-modal a.popup-modal-dismiss { margin-left: 24px; }
 
@@ -971,7 +1050,7 @@ call-to-action .button {
     text-align: center;
     overflow: hidden;
     width: 66%;
-    height: 200px;
+    height: 250px;
     float: left;
 }
 .photo div {
@@ -985,18 +1064,18 @@ call-to-action .button {
 .photo img {
 
   display: inline;
-  height:80%;
-  width: 95%;
+  height:100px;
+  width: 100px;
 }
 .interet {
-background-image: url(../images/world.jpg);
+/*background-image: url(../images/world.jpg);*/
 
 background-size: cover !important;
     display: block;
     text-align: center;
     overflow: hidden;
     width: 34%;
-    height: 200px;
+    height: 250px;
     float: right;;
 }
 .interet div {
