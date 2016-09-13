@@ -124,10 +124,6 @@ header .scrolldown a {
     background-color: #333;
 }
 
-li {
-    float: left;
-}
-
 li a, .dropbtn {
     display: inline-block;
     color: blue;
@@ -546,8 +542,28 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
+/*<!-- start projets realized-->*/
+.projets{
+  padding-top: 25px;
+  margin: 12px auto;
+  height: 450px;
+  overflow: hidden;
+  background-color: #e6ffff;
+  text-align: center;
+}
+.projets .togethers{
+  width: 60%;
+  float: left;
+  border: 3px dashed #FCF;
+}
+.projets .alone{
+  width: 40%;
+  float: left;
+  border: 3px dashed #FCF;
+}
+/*<!-- End projets realized-->*/
 .interet {
-  border: 3px solid #cfe;
+
     display: block;
     text-align: center;
     width: 34%;
@@ -577,29 +593,29 @@ text-align: left;
    position: relative;
   	margin-bottom: 6px;
   	background: #ccc;
-  	height: 16px;
+  	height: 24px;
   	border-radius: 3px;
 }
 .interet li em {
 	font: 15px 'opensans-bold', sans-serif;
-   color: #313131;
-	text-transform: capitalize;
+   color: blue;
+	text-transform: uppercase;
    letter-spacing: 2px;
 	font-weight: normal;
-
+text-align: right;
 	top: -36px;
+  z-index: rgba(0, 0, 0, 7);
 }
 .interet .bar-expand {
    position: absolute;
    left: 0;
    top: 0;
-
    margin: 0;
    padding-right: 24px;
   	background: #00ace6;
    display: inline-block;
-  	height: 16px;
-   line-height: 16px;
+  	height: 24px;
+   line-height: 24px;
    border-radius: 3px 0 0 3px;
 }
 .Arabe {
@@ -1146,12 +1162,11 @@ call-to-action .button {
     display: block;
     text-align: center;
     overflow: hidden;
-    width: 66%;
+    width: 56%;
     height: 250px;
     float: left;
 }
 .photo div {
-
     display: inline;
     overflow: hidden;
     float: left;
@@ -1171,7 +1186,7 @@ background-size: cover !important;
     display: block;
     text-align: center;
     overflow: hidden;
-    width: 34%;
+    width: 44%;
     height: 250px;
     float: right;;
 }
