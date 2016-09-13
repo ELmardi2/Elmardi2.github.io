@@ -1181,7 +1181,7 @@ call-to-action .button {
 }
 .interet {
 /*background-image: url(../images/world.jpg);*/
-
+background-color: #e6ffff;
 background-size: cover !important;
     display: block;
     text-align: center;
