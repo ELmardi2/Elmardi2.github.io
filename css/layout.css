@@ -546,7 +546,7 @@ ul#nav li.current a { color: #F06000; }
 .projets{
   padding-top: 25px;
   margin: 12px auto;
-  height: 450px;
+  height: 400px;
   overflow: hidden;
   background-color: #e6ffff;
   text-align: center;
@@ -1158,7 +1158,7 @@ call-to-action .button {
 /* i. section two
 /* ------------------------------------------------------------------ */
 .photo  {
-  border: 3px dotted #cdf;
+  background-color: #e6ffff;
     display: block;
     text-align: center;
     overflow: hidden;
