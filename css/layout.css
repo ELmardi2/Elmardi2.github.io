@@ -578,8 +578,8 @@ ul#nav li.current a { color: #F06000; }
 .projets{
   padding-top: 25px;
   margin: 12px auto;
-  height: 400px;
-  overflow: hidden;
+  height: 600px;
+overflow: visible;
   background-color: #e6ffff;
   text-align: center;
 }
@@ -619,6 +619,7 @@ ul#nav li.current a { color: #F06000; }
 .interet .lang h5 {
 padding-top: 1px;
 margin: 0;
+margin-bottom: 3px;
 text-align: left;
 }
 .interet li {
